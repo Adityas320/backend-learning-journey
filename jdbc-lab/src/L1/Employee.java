@@ -20,6 +20,11 @@ public class Employee {
 	private BigDecimal salary;
 	private BigDecimal balance;
 	
+	
+	@ManyToOne
+	@JoinColumn(name="dept_id")
+	private Department department;
+	
 	public Employee () {}
 	
 	public int getEmpId() { return empId; }
@@ -32,6 +37,8 @@ public class Employee {
     public void setSalary(BigDecimal salary) { this.salary = salary; }
     public BigDecimal getBalance() { return balance; }
     public void setBalance(BigDecimal balance) { this.balance = balance; }
+    public Department getDepartment() { return department; }
+    public void setDepartment(Department department) { this.department = department; }
 }
 	
 	

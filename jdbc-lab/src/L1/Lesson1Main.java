@@ -9,7 +9,8 @@ public class Lesson1Main {
         Session session = sf.openSession();
 
         Employee e = session.get(Employee.class, 1);   
-        System.out.println(">>> " + (e == null ? "no such row" : e.getName() + " | " + e.getSalary()));
+        //System.out.println(">>> " + (e == null ? "no such row" : e.getName() + " | " + e.getSalary()));
+        System.out.println(e.getName() + " works in " + e.getDepartment().getDeptName());
 
         session.close();
         sf.close();

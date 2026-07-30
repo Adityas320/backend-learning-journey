@@ -8,6 +8,7 @@ public class HibernateUtil {
         new Configuration()
             .configure()                        // reads hibernate.cfg.xml
             .addAnnotatedClass(Employee.class)  // register the entity
+            .addAnnotatedClass(Department.class)
             .buildSessionFactory();
 
     public static SessionFactory getSessionFactory() { return sessionFactory; }
