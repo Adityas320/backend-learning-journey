@@ -13,6 +13,7 @@ public class Day3 {
 		queue.add("second");
 		queue.add("third");
 		//this is queue
+		// this is again queue
 		System.out.println(queue);          
 		System.out.println(queue.get(1));   
 		queue.remove("second");
