@@ -44,6 +44,7 @@ public class Day5 {
 		points.add(new Point(1, 2));
 		points.add(new Point(1, 2));  
 		System.out.println(points.size());
+		// this was the insertion
 
 	}
 
