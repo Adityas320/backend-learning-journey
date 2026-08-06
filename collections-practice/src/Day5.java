@@ -2,12 +2,24 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.HashSet;
-class Point {
+class Point implements Comparable<Point>{
 	int x,y;
 	Point(int x,int y) {
 		this.x=x;
 		this.y=y;
 	}
+	@Override
+	public String toString() {
+	    return "(" + x + ", " + y + ")";
+	}
+    @Override
+    public int compareTo(Point other) {
+        // sort by x first; if x ties, sort by y
+        if (this.x != other.x) {
+            return Integer.compare(this.x, other.x);
+        }
+        return Integer.compare(this.y, other.y);
+    }
 	@Override
 	public boolean equals(Object o) {
 		if(this == o) return true;
