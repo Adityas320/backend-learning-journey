@@ -22,6 +22,7 @@ public class Day6 {
 		pts.add(new Point(3, 1));
 		pts.add(new Point(1, 2));
 		pts.add(new Point(1, 1));
+		//
 		System.out.println(pts);
 		System.out.println("HashSet:       " + hash);
         System.out.println("LinkedHashSet: " + linked);
