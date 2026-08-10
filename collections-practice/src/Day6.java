@@ -29,7 +29,7 @@ public class Day6 {
 		System.out.println("HashSet:       " + hash);
         System.out.println("LinkedHashSet: " + linked);
         System.out.println("TreeSet:       " + tree);
-		
+       
 
 	}
 
