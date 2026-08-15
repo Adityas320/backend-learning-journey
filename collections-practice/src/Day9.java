@@ -17,6 +17,8 @@ public class Day9 {
         	tree.put(keys[i], vals[i]);
         	
         }
+        //
+        //
         System.out.println("hashmap:   "+hash);
         System.out.println("linkedhashmap:   "+linked);
         System.out.println("treemap:   "+tree);
