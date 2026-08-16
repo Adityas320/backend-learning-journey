@@ -19,6 +19,7 @@ public class Day9 {
         }
         //
         //
+        //
         System.out.println("hashmap:   "+hash);
         System.out.println("linkedhashmap:   "+linked);
         System.out.println("treemap:   "+tree);
