@@ -17,13 +17,14 @@ public class Day9 {
         	tree.put(keys[i], vals[i]);
         	
         }
-        //
-        //
-        //
-        //
+
         System.out.println("hashmap:   "+hash);
         System.out.println("linkedhashmap:   "+linked);
         System.out.println("treemap:   "+tree);
+        System.out.println("--- TreeMap in sorted order ---");
+        for (Map.Entry<String, Integer> entry : tree.entrySet()) {
+            System.out.println(entry.getKey() + " = " + entry.getValue());
+        }
 	}
 
 }
