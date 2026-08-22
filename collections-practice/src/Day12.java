@@ -43,8 +43,7 @@ public class Day12 {
 		.mapToInt (n->n) 
 		.sum();
 		System.out.println("Sum: "+ total);
-		
-
+//
 	}
 
 }
