@@ -45,5 +45,6 @@ public class Day12 {
 		System.out.println("Sum: "+ total);
 //
 	}
+	//
 
 }
